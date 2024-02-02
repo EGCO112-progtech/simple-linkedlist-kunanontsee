@@ -112,7 +112,7 @@ int main(int argc, const char * argv[]) {
     while(head1 != NULL)
     {
         head1 = head1->next;
-        printf("%5d", temp1->value);
+        printf("%3d", temp1->value);
         free(temp1);
         temp1 = head1;
     }

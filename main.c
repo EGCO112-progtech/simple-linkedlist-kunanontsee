@@ -24,6 +24,10 @@ int main(int argc, const char * argv[]) {
     2. Add value(11)
     3. Make next become NULL
  */
+    struct node c;
+    b.next = &c;
+    c.value = head->next->value+11;
+    c.next = NULL;
     
 /*  Exercise II
         1. Add 1 more than at the begining!!!!
